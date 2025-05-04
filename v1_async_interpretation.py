@@ -10,7 +10,7 @@ from google.colab import files
 nest_asyncio.apply()
 
 # Initialize the client
-API_KEY = "AIzaSyBpDTvRmjhbk9ryLibwaXS2HMKJPBAYsmY"
+API_KEY = ""
 client = genai.Client(api_key=API_KEY)
 model_id = "gemini-2.0-flash"
 
